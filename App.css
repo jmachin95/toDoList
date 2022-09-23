@@ -91,3 +91,14 @@ button{
     width: 200px;
     margin: 30px auto ;
 }
+
+.completedSection{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    list-style-type: none;
+}
+
+.completedSection.active{
+    display: none;
+}
